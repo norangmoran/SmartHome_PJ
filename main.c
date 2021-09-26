@@ -17,7 +17,7 @@ void loop(){
 }
 void CallMaster(){ //3회 접속실패시
   LCDPRINT("A Number of Failures","Close for 30 sec..");
-  Serial.print("Access fail"); //라즈베리에서 사진촬영,주인에게 메세지전송!
+  Serial.println("Access fail"); //라즈베리에서 사진촬영,주인에게 메세지전송!
   delay(30000);
   Attempt=0;
   seri='Y';
